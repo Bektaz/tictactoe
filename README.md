@@ -1,2 +1,2 @@
 # tictactoe
-The Tic Tac Toe game
+This game was made using HTML, CSS, Bootstrap and jQuery library.

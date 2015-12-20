@@ -1,0 +1,69 @@
+<!DOCTYPE>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="tttcss.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="tttjs.js"></script>
+	</head>
+    <body>
+        <div class="container">
+            <!--Offer div which user chooses between x or o symbol-->
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 choice">
+                    <p class="text-center choicepar">Would you like to play with X or O?</p>
+                    <div class="row">
+                        <div class="col-md-6 text-center btndiv">
+                            <button class="btn btn-default" id='xbut'>X</button>
+                        </div>
+                        <div class="col-md-6 text-center btndiv">
+                            <button class="btn btn-default" id='obut'>O</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--You've lost or Draw div-->
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 replay">
+                    <p class="text-center choicepar" id="gopar"></p>
+                    <div class="row">
+                        <div class="col-md-12 text-center btndiv">
+                            <button class="btn btn-default" id='replay'>Play again</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--3 rows and 9 cells-->
+            <div class="row main">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-4 box c1 c4 c7"><div class="margindiv"><p class='mainval'></p><p class="pos" id='11'>11</p></div></div>
+                            <div class="col-md-4 col-xs-4 box c1 c5"><div class="margindiv"><p class='mainval'></p><p class="pos" id='12'>12</p></div></div>
+                            <div class="col-md-4 col-xs-4 box c1 c6 c8"><div class="margindiv"><p class='mainval'></p><p class="pos" id='13'>13</p></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-4 box c2 c4"><div class="margindiv"><p class='mainval'></p><p class="pos" id='21'>21</p></div></div>
+                            <div class="col-md-4 col-xs-4 box c2 c5 c7 c8"><div class="margindiv"><p class='mainval'></p><p class="pos" id='22'>22</p></div></div>
+                            <div class="col-md-4 col-xs-4 box c2 c6"><div class="margindiv"><p class='mainval'></p><p class="pos" id='23'>23</p></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-4 box c3 c4 c8"><div class="margindiv"><p class='mainval'></p><p class="pos" id='31'>31</p></div></div>
+                            <div class="col-md-4 col-xs-4 box c3 c5"><div class="margindiv"><p class='mainval'></p><p class="pos" id='32'>32</p></div></div>
+                            <div class="col-md-4 col-xs-4 box c3 c6 c7"><div class="margindiv"><p class='mainval'></p><p class="pos" id='33'>33</p></div></div>
+                        </div>
+                    </div>
+                </div><br>               
+            </div>
+        </div>
+    </body>
+</html>
